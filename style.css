@@ -9,6 +9,22 @@
   scroll-behavior: smooth;
 }
 
+@media (max-width: 768px) { 
+  .home .home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .fas.fa-times {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+}
+
+
 /* Custom Scroll Bar CSS */
 ::-webkit-scrollbar {
   width: 10px;
