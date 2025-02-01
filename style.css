@@ -32,7 +32,7 @@
 nav {
   position: fixed;
   width: 100%;
-  padding: 20px 0;
+  padding: 20px;
   z-index: 998;
   transition: all 0.3s ease;
   font-family: 'Ubuntu', sans-serif;
