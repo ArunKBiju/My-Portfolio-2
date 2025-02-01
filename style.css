@@ -140,7 +140,7 @@ nav.sticky .menu-btn {
   height: 525px;
   border-radius: 70%;
   position:absolute;
-  left: 80%;
+  left: 60%;
   top: 200px;
   background: transparent;
 
@@ -160,6 +160,14 @@ nav.sticky .menu-btn {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+@media(max-width:768px)
+{
+  .home .home-content 
+  {
+    margin-top: 600px;
+  }
 }
 
 .home .text-one {
