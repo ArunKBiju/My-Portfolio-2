@@ -147,6 +147,7 @@ nav.sticky .menu-btn {
   color: #fff;
 }
 
+
 /* home section styling */
 .home {
   height: 100vh;
@@ -194,7 +195,7 @@ nav.sticky .menu-btn {
 @media (max-width:768px);
 {
   .home .text-one {
-  margin-top: 25%;
+  margin-top: 20%;
 }
 }
 
