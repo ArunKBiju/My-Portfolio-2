@@ -10,10 +10,12 @@
 }
 
 
-  .fas.fa-times {
+@media (max-width:768px)
+{
+  .menu-btn {
     margin-top: 10px;
 }
-
+}
 
 /* Custom Scroll Bar CSS */
 ::-webkit-scrollbar {
