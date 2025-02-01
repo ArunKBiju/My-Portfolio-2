@@ -145,8 +145,17 @@ nav.sticky .menu-btn {
   left: 50%;
   top: 200px;
   background: transparent;
-
 }
+
+@media (max-width: 768px) {
+  .home img {
+    width: 50%;
+    position: absolute;
+    right: 10%;
+    top: 65%;
+  }
+}
+
 
 .home .home-content {
   width: 90%;
