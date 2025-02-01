@@ -1,3 +1,4 @@
+/* Google Font CDN Link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
 * {
@@ -8,6 +9,7 @@
   scroll-behavior: smooth;
 }
 
+/* Custom Scroll Bar CSS */
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -26,6 +28,7 @@
   background: #4070f4;
 }
 
+/* navbar styling */
 nav {
   position: fixed;
   width: 100%;
@@ -55,7 +58,7 @@ a
 
 nav .navbar .logo a {
   font-weight: 500;
-  font-size: 40;
+  font-size: 40px;
   color: #4070f4;
 }
 
@@ -70,14 +73,14 @@ nav .navbar .menu {
 
 nav .navbar .menu li {
   list-style: none;
-  margin: 0 20;
+  margin: 0 20px;
 }
 
 .navbar .menu a {
-  font-size: 28;
+  font-size: 28px;
   font-weight: 500;
   color: #0E2431;
-  padding: 9 0;
+  padding: 9px 0;
   transition: all 0.4s ease;
 }
 
@@ -95,21 +98,22 @@ nav.sticky .menu a:hover {
 
 .navbar .media-icons a {
   color: #4070f4;
-  font-size: 28;
-  margin: 0 6;
+  font-size: 28px;
+  margin: 0 6px;
 }
 
 nav.sticky .media-icons a {
   color: #FFF;
 }
 
+/* Side Navigation Menu Button CSS */
 nav .menu-btn,
 .navbar .menu .cancel-btn {
   position: absolute;
   color: #fff;
-  right: 30;
-  top: 20;
-  font-size: 20;
+  right: 30px;
+  top: 20px;
+  font-size: 20px;
   cursor: pointer;
   transition: all 0.3s ease;
   display: none;
@@ -127,6 +131,7 @@ nav.sticky .menu-btn {
   color: #fff;
 }
 
+/* home section styling */
 .home {
   height: 100vh;
   width: 100%;
@@ -199,6 +204,9 @@ nav.sticky .menu-btn {
   color: #4070f4;
 }
 
+/* About Section Styling */
+/* Those Elements Where We Have Apply Same CSS,
+ I'm Selecting Directly 'Section Tag' and 'Class'  */
 section {
   padding-top: 40px;
   margin-top: 15px;
@@ -299,6 +307,7 @@ section .button button:hover {
   color: #4070f4;
 }
 
+/* My Skills CSS */
 .skills {
   background: #F0F8FF;
 }
@@ -366,6 +375,7 @@ section .button button:hover {
   color: #4070f4;
 }
 
+/* My Services CSS */
 .services .boxes {
   display: flex;
   flex-wrap: wrap;
@@ -417,6 +427,7 @@ section .button button:hover {
   color: #fff;
 }
 
+/* Contact Me CSS */
 .contact {
   background: #F0F8FF;
 }
@@ -433,6 +444,7 @@ section .button button:hover {
 }
 
 
+/* Footer CSS */
 footer {
   background: #4070f4;
   padding: 15px 0;
@@ -455,6 +467,7 @@ footer .text span a:hover {
   text-decoration: underline;
 }
 
+/* Scroll TO Top Button CSS */
 .scroll-button a {
   position: fixed;
   bottom: 20px;
@@ -469,6 +482,7 @@ footer .text span a:hover {
   display: none;
 }
 
+/* Responsive Media Query */
 @media (max-width: 1190px) {
   section .content {
     width: 85%;
