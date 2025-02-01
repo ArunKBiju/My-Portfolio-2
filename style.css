@@ -139,7 +139,7 @@ nav.sticky .menu-btn {
 }
 
 .home .img img{
-  height: 525px;
+  width: 525px;
   border-radius: 70%;
   position:absolute;
   left: 50%;
