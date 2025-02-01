@@ -32,7 +32,7 @@
 nav {
   position: fixed;
   width: 100%;
-  padding: 20px;
+  padding: 20px 0;
   z-index: 998;
   transition: all 0.3s ease;
   font-family: 'Ubuntu', sans-serif;
@@ -45,6 +45,7 @@ nav.sticky {
 
 nav .navbar {
   width: 90%;
+  padding-top: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
