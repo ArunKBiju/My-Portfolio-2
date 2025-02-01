@@ -45,11 +45,17 @@ nav.sticky {
 
 nav .navbar {
   width: 90%;
-  
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: auto;
+}
+
+@media (max-width:768px)
+{
+  nav .navbar {
+    margin-top: 20px;
+  }
 }
 
 a
