@@ -151,11 +151,13 @@ nav.sticky .menu-btn {
   .home .img img {
     width: 50%;
     height: auto;
+    aspect-ratio: 1 / 1;
     position: absolute;
     right: 10%;
     top: 65%;
   }
 }
+
 
 
 .home .home-content {
