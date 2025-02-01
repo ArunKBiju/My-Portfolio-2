@@ -150,6 +150,7 @@ nav.sticky .menu-btn {
 @media (max-width: 768px) {
   .home .img img {
     width: 50%;
+    height: auto;
     position: absolute;
     right: 10%;
     top: 65%;
