@@ -45,7 +45,7 @@ nav.sticky {
 
 nav .navbar {
   width: 90%;
-  padding-top: 20px;
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -65,6 +65,7 @@ nav .navbar .logo a {
 
 nav.sticky .navbar .logo a {
   color: #fff;
+  margin-top: 20px;
 }
 
 nav .navbar .menu {
@@ -140,19 +141,32 @@ nav.sticky .menu-btn {
 }
 
 .home .img img{
-  height: 525px;
+  width: 525px;
   border-radius: 70%;
   position:absolute;
   left: 50%;
   top: 200px;
   background: transparent;
-
 }
+
+@media (max-width: 768px) {
+  .home .img img {
+    width: 50%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    position: absolute;
+    right: 10%;
+    top: 65%;
+  }
+}
+
+
 
 .home .home-content {
   width: 90%;
   height: 100%;
   margin: auto;
+  margin-top: -20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -161,6 +175,13 @@ nav.sticky .menu-btn {
 .home .text-one {
   font-size: 25px;
   color: #0E2431;
+}
+
+@media (max-width:768px);
+{
+  .home .text-one {
+  margin-top: 25%;
+}
 }
 
 .home .text-two {
