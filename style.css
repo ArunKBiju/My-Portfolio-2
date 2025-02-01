@@ -54,9 +54,10 @@ nav .navbar {
 @media (max-width:768px)
 {
   nav .navbar {
-    margin-top: 20px;
+    margin-top: 10px;
   }
 }
+
 
 a
 {
@@ -71,7 +72,6 @@ nav .navbar .logo a {
 
 nav.sticky .navbar .logo a {
   color: #fff;
-  margin-top: 20px;
 }
 
 nav .navbar .menu {
