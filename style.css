@@ -143,7 +143,7 @@ nav.sticky .menu-btn {
 
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .home .img img{
     height: 350px;
     width: 350px;
