@@ -146,6 +146,13 @@ nav.sticky .menu-btn {
 
 }
 
+@media(max-width:768px){
+  .home .img img{
+ height: 20%;
+    top: 100px;
+  }
+}
+
 .home .home-content {
   width: 90%;
   height: 100%;
