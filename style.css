@@ -28,6 +28,11 @@
   background: #4070f4;
 }
 
+#home img
+{
+  height: 50px;
+}
+
 /* navbar styling */
 nav {
   position: fixed;
