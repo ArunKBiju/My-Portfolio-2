@@ -55,7 +55,7 @@ a
 
 nav .navbar .logo a {
   font-weight: 500;
-  font-size: 40px;
+  font-size: 40;
   color: #4070f4;
 }
 
@@ -70,14 +70,14 @@ nav .navbar .menu {
 
 nav .navbar .menu li {
   list-style: none;
-  margin: 0 20px;
+  margin: 0 20;
 }
 
 .navbar .menu a {
-  font-size: 28px;
+  font-size: 28;
   font-weight: 500;
   color: #0E2431;
-  padding: 9px 0;
+  padding: 9 0;
   transition: all 0.4s ease;
 }
 
@@ -95,8 +95,8 @@ nav.sticky .menu a:hover {
 
 .navbar .media-icons a {
   color: #4070f4;
-  font-size: 28px;
-  margin: 0 6px;
+  font-size: 28;
+  margin: 0 6;
 }
 
 nav.sticky .media-icons a {
@@ -107,9 +107,9 @@ nav .menu-btn,
 .navbar .menu .cancel-btn {
   position: absolute;
   color: #fff;
-  right: 30px;
-  top: 20px;
-  font-size: 20px;
+  right: 30;
+  top: 20;
+  font-size: 20;
   cursor: pointer;
   transition: all 0.3s ease;
   display: none;
@@ -141,6 +141,13 @@ nav.sticky .menu-btn {
   top: 200px;
   background: transparent;
 
+}
+
+@media (max-width: 900px) {
+  .home .img img{
+    height: 350px;
+    width: 350px;
+  }
 }
 
 .home .home-content {
