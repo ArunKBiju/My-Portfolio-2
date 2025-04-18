@@ -1,4 +1,4 @@
-# My Portfolio - https://arunkbiju.github.io/My-Portfolio/
+# My Portfolio - https://arunkbiju.github.io/My-Portfolio-2/
 
 This is a dynamic personal portfolio website built with HTML, CSS, and JavaScript.
 
